@@ -1,0 +1,30 @@
+Colour Schemes
+==============
+
+This repository contains some colour schemes I have created for use in various applications. I figured I'd provide them to others as well in case anyone finds them useful. This file has a quick overview of what's included. In addition, there are some screenshots. I will continue to update these themes if required, and add to them with new/updated themes. 
+
+Vibrant Pastel
+--------------
+This theme uses light pastel colours on a black semi-transparent background. It was originally based on the 'Pro' terminal theme which is provided with OS X.
+
+Provided theme files:
+- Textmate
+- OS X Terminal
+
+Blackboard2
+-----------
+
+This is a terminal theme designed to work with a modified version of the blackboard theme supplied with Textmate.
+
+Provided theme files:
+- OS X Terminal
+
+Notes
+-----
+
+My terminal themes for OS X terminal work best with terminal colours turned on. They also work very well with a coloured prompt. My .bash_profile for enabling these features looks like this:
+
+export CLICOLOR=1
+export PS1="\[\e[0;32m\]\u@\h \W$\[\e[0m\] "
+
+These themes are supplied as-is with no warranty express or implied. That said, feel free to do whatever you like with/to them.
